@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mahasiswa Sistem Informasi</title>
+  <style>
+    body, html {margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif;}
+
+    .hero-section {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://exampllee.vercel.app/assets/F01.jpg'); background-size: cover; background-position: center; color: white; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 80px 10px 20px; text-align: center; width: 100%; box-sizing: border-box;}
+
+    h1 {margin: 0; font-size: 2.5rem;}
+    p {font-size: 15px; margin-top: 8px;}
+    @media (max-width: 768px) {
+      .hero-section {padding: 60px 10px 20px;}
+      h1 {font-size: 1.8rem !important;}
+    }
+
+    @media (max-width: 480px) {
+      .hero-section {padding: 50px 5px 15px;}
+      
+      h1 {font-size: 1.6rem !important;
+        padding: 0 10px;}
+      p {font-size: 14px !important; padding: 0 10px;}
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <div class="hero-section" style="background-color: #fff">
+    <h1>Mahasiswa Sistem Informasi</h1>
+    <p>Jago IT &#128187 •Suka Koding • Berkarakter &#127793</p>
+  
+      <!-- Section: Picture & Images -->
+  <div style="padding: 20px; background-color: #ffffffcc; margin: 15px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+    <h3 style="color: #355485; text-align: left">&#128248 HTML Images</h3>
+    <p style="text-align: left;">Tag &lt;<small>img</small>&gt digunakan untuk menampilkan gambar + dijadikan tautan. Contohnya:</p>
+    <a href="https://i.pinimg.com/736x/4c/57/4a/4c574a48d4449c7fdd432a674975c295.jpg">
+      <img src="https://exampllee.vercel.app/assets/F01.jpg" style="width:90%;max-width:320px; display:block; margin:auto;border-radius:10px"></a>
+    <p style="text-align: left">Contoh <b>gambar animasi (GIF)</b>:</p>
+     <img src= "https://i.pinimg.com/originals/0b/5c/c0/0b5cc024841accd9a31a7b2daeb0e57b.gif" style="margin: auto; border-radius: 10px; width: 90%; max-width: 320px">
+     
+   <p style="text-align: left">Dan berikut penerapan &lt;<b>picture</b>&gt element:</p>
+    <img src="https://exampllee.vercel.app/assets/F13.jpg" style="width: 90%; max-width: 320px; margin: auto; border-radius: 10px">
+    </div>
+    
+    <div style="padding: 20px; background-color: #ffffffcc; margin: 15px; text-align: left; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+      <h3 style="color: #355485">&#128506 Image Map</h3>
+      <p style="text-align: left">Kita bisa membuat gambar yang memiliki area klik berbeda-beda: </p>
+    <!-- Gambar -->
+      <img src="https://exampllee.vercel.app/assets/F16.jpg" alt="Laptop dan kopi di atas meja" usemap="#mapGambar" style="width: 90%; margin: auto; max-width: 320px; border-radius: 10px">
+      <!-- Peta Klik -->
+      <map name="mapGambar">
+      <!-- Area Klik Laptop -->
+      <area shape="rect" coords="60,100,310,260" href="https://pin.it/65aNXsSNe" alt="laptop" title="Klik untuk mengetahui tentang laptop">
+      <!-- Area Cangkir Kopi -->
+      <area shape="circle" coords="355,285,35" href="https://pin.it/65aNXsSNe" alt="Cangkir kopi" title="Klik untuk tahu tentang kopi"
+      </map>
+      <p style="text-align: left">&#10145 Coba klik bagian komputer atau cangkir kopi di gambar di atas!</p>
+    </div>
+    
+  <!-- table section -->
+  <div style="padding: 20px; background-color: #ffffffcc; margin: 15px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+  <h3 style="color: #355485; text-align: left">&#128202 HTML Tables</h3>
+  <p style="text-align: left">Tabel digunakan untuk menampilkan data baris dan kolom</p>
+  <table style="width: 100p%; border-collapse: collapse; text-align: center; font-size: 14px;">
+    <tr style="background-color: #4f90c6; color: white">
+      <th style="border: 1px solid #999; padding: 6px;" colspan="3">Data Mahasiswa SI</th>
+    <tr style="background-color: #f0f7ff;">
+      <th style="border: 1px solid #999; padding: 6px;">Nama</th>
+      <th style="border: 1px solid #999; padding: 6px;">NIM</th>
+      <th style="border: 1px solid #999; padding: 6px;">Minat</th>
+    <tr>
+      <td style="border: 1px solid #999; padding: 6px;">Fathur</td>
+      <td style="border: 1px solid #999; padding: 6px;">0110122090</td>
+      <td style="border: 1px solid #999; padding: 6px;">Web Development</td>
+    <tr>
+      <td style="border: 1px solid #999; padding: 6px;">Riyan</td>
+      <td style="border: 1px solid #999; padding: 6px;">0110122091</td>
+      <td style="border: 1px solid #999; padding: 6px;">UI/UX Design</td>
+    <tr>
+      <th style="border: 1px solid #999; padding: 6px;" colspan="3">Jumlah Mahasiswa Aktif : 2</th>
+      </table>
+  </div>
+  
+ <div style="padding: 20px; background-color: #ffffffcc; margin: 15px; text-align: left; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);">
+   <h3 style="color: #355485">&#128203 HTML List</h3>
+   <p><b>Unordered List (daftar tanpa urutan)</b></p>
+   <ul>
+     <li>Analisis Sistem</li>
+     <li>Desain Database</li>
+     <li>Pemrograman Web</li>
+   </ul>
+   <p><b>Ordered List (daftar berurutan)</b></p>
+   <ol>
+     <li>Belajar HTML</li>
+     <li>Belajar CSS</li>
+     <li>Belajar JavaScript</li>
+   </ol>
+   <p><b>Desciption List</b>
+   <b>HTML</b> <br>
+   Bahasa untuk membuat struktur web. <br>
+   <b>CSS</b> <br>
+   Bahasa untuk memperindah tampilan web. <br>
+   <b>JavaScript</b> <br>
+   Bahasa untuk membuat web menjadi interaktif.</p>
+ </div>
+ 
+ <div style="background-color: #1f3963; color: white; text-align: center; padding: 15px; font-size: 13px;">
+    <p>&copy; 2025 STT Nurul Fikri - Jago IT, Berkarakter</p>
+</div>
+</body>
+</html>
